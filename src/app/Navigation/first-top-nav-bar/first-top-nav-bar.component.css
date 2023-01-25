@@ -1,0 +1,39 @@
+nav {
+    height: 70px;
+}
+
+div{
+    display: inline-block;
+    
+}
+
+.Application {
+    background-color:#3c8c9c;
+    color: white;
+    height: 55px;
+    width: 200px;
+    vertical-align: auto;
+    text-align: center;
+    
+}
+
+.ContactInfo {
+    margin-left: 10%;
+}
+
+.SocialMedia {
+    margin-right: 20%;
+}
+
+.PhoneNumber {
+    color: white;
+    margin-right: 50px;
+
+}
+
+.Email{
+    color: white;
+    
+    
+}
+

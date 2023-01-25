@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './second-top-nav-bar.component.html',
   styleUrls: ['./second-top-nav-bar.component.css']
 })
+
+
+
 export class SecondTopNavBarComponent {
 
 }
