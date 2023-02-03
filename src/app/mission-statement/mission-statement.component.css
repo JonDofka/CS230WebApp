@@ -1,0 +1,24 @@
+div{
+    padding-top: 70px;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+h1{
+    text-align:center;
+    font-size:200%;
+    color:#3e8998;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    
+    color: #6d7379;
+    
+}
+
+h2{
+    color: #595a5c;
+    font-size: 120%;
+}
