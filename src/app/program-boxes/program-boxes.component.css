@@ -1,0 +1,139 @@
+h1{
+    color:#3e8998;
+    padding-left: 10%;
+    margin-bottom: 10px;
+    
+}
+
+.OurPrograms{
+    color: #3e8998;
+    padding-left: 10%;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+
+.programBoxes{
+    width: 100%;
+}
+
+.CosmoBackground{
+    background-image: url("/assets/imgs/CosmetologyBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+    border-right: white solid;
+    border-top: white solid;
+    border-bottom: white solid;
+    border-width: 11px;
+}
+
+.Cosmetology{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.MediumBoxes{
+    width:62%;
+}
+
+.HairBackground{
+    background-image: url("/assets/imgs/HairStylinBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.Hairstylist{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    border: white solid;
+    border-width: 11px;
+}
+
+.SkinBackground{
+    background-image: url("/assets/imgs/SkinCareBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.SkinCare{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    border: white solid;
+    border-width: 11px ;
+}
+
+.NailBackground{
+    background-image: url("/assets/imgs/NailTechnologyBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 343px;
+    width: 33%;
+}
+
+.NailTech{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    border: white solid;
+    border-width: 11px ;
+}
+
+.MassageBackground{
+    background-image: url("/assets/imgs/MassageTherapyBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 343px;
+    width: 33%;
+}
+
+.MassageTherapy{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    border: white solid;
+    border-width: 11px ;
+}
+
+.DistanceBackground{
+    background-image: url("/assets/imgs/DistanceLearnBackground.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 343px;
+    width: 33%;
+}
+
+.DistanceLearning{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    border: white solid;
+    border-width: 11px ;
+}
+
+h2{
+    color: white;
+    padding-left: 3%;
+    font-size: 450%;
+
+}
+
+h3{
+    color: white;
+    padding-left: 3%;
+}
+
+p{
+    color: white;
+    padding-left: 2.9%;
+    font-size: 140%;
+    line-height: 90%;
+}

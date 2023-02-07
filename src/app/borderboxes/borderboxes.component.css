@@ -1,0 +1,28 @@
+.Background{
+    background-image: url("/assets/imgs/BorderBoxes.jpeg");
+    background-position: center;
+}
+.opaqueCover{
+    background-color: rgba(0,0,0,.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1{
+    color:white;
+    font-size: 400%;
+}
+
+p{
+    color: white;
+}
+
+.Information{
+    border: 2px solid;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 24%;
+    height: 500px;
+    margin-left: 10px;
+}

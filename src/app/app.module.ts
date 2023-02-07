@@ -7,6 +7,8 @@ import { FirstTopNavBarComponent } from './navigation/first-top-nav-bar/first-to
 import { SecondTopNavBarComponent } from './navigation/second-top-nav-bar/second-top-nav-bar.component';
 import { WelcomeImageComponent } from './welcome-image/welcome-image.component';
 import { MissionStatementComponent } from './mission-statement/mission-statement.component';
+import { BorderboxesComponent } from './borderboxes/borderboxes.component';
+import { ProgramBoxesComponent } from './program-boxes/program-boxes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MissionStatementComponent } from './mission-statement/mission-statement
     FirstTopNavBarComponent,
     SecondTopNavBarComponent,
     WelcomeImageComponent,
-    MissionStatementComponent
+    MissionStatementComponent,
+    BorderboxesComponent,
+    ProgramBoxesComponent
   ],
   imports: [
     BrowserModule,
