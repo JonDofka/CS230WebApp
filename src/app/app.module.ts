@@ -9,6 +9,7 @@ import { WelcomeImageComponent } from './welcome-image/welcome-image.component';
 import { MissionStatementComponent } from './mission-statement/mission-statement.component';
 import { BorderboxesComponent } from './borderboxes/borderboxes.component';
 import { ProgramBoxesComponent } from './program-boxes/program-boxes.component';
+import { ApplicationSectionComponent } from './application-section/application-section.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProgramBoxesComponent } from './program-boxes/program-boxes.component';
     WelcomeImageComponent,
     MissionStatementComponent,
     BorderboxesComponent,
-    ProgramBoxesComponent
+    ProgramBoxesComponent,
+    ApplicationSectionComponent
   ],
   imports: [
     BrowserModule,

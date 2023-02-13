@@ -35,6 +35,11 @@ h1{
     background-color: rgba(0,0,0,.5);
 }
 
+.Cosmetology:hover{
+    background-color: rgba(192, 65, 192,.5);
+    transition-duration: 300ms;
+}
+
 .MediumBoxes{
     width:62%;
 }
@@ -55,6 +60,11 @@ h1{
     border-width: 11px;
 }
 
+.Hairstylist:hover{
+    background-color: rgba(192, 65, 192,.5);
+    transition-duration: 300ms;
+}
+
 .SkinBackground{
     background-image: url("/assets/imgs/SkinCareBackground.jpeg");
     background-position: center;
@@ -69,6 +79,11 @@ h1{
     height: 100%;
     border: white solid;
     border-width: 11px ;
+}
+
+.SkinCare:hover{
+    background-color: rgba(192, 65, 192,.5);
+    transition-duration: 300ms;  
 }
 
 .NailBackground{
@@ -87,6 +102,11 @@ h1{
     border-width: 11px ;
 }
 
+.NailTech:hover{
+    background-color: rgba(192, 65, 192,.5);
+    transition-duration: 300ms;
+}
+
 .MassageBackground{
     background-image: url("/assets/imgs/MassageTherapyBackground.jpeg");
     background-position: center;
@@ -101,6 +121,11 @@ h1{
     width: 100%;
     border: white solid;
     border-width: 11px ;
+}
+
+.MassageTherapy:hover{
+    background-color: rgba(192, 65, 192,.5);
+    transition-duration: 300ms;
 }
 
 .DistanceBackground{
@@ -119,6 +144,11 @@ h1{
     border-width: 11px ;
 }
 
+.DistanceLearning:hover{
+    background-color: rgba(192, 65, 192,.5);
+    transition-duration: 300ms;
+}
+
 h2{
     color: white;
     padding-left: 3%;
@@ -129,6 +159,29 @@ h2{
 h3{
     color: white;
     padding-left: 3%;
+}
+
+h4{
+    color:#3e8998;
+    font-size: xx-large;
+}
+
+.AdTitleHeading{
+    padding-left: 18%;
+    width: 40%;
+}
+
+.newCareer{
+    color: rgb(110, 110, 110);
+    width: 50%;
+    padding-right: 25%;
+    line-height: 130%;
+    font-size: 110%;
+}
+
+.Advertisement{
+    margin-top: 60px;
+    margin-bottom: 60px;  
 }
 
 p{

@@ -1,0 +1,86 @@
+.Background{
+    background: url("/assets/imgs/PurpleFadeBackground2.jpeg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 840px;
+}
+
+.ApplyBoxes{
+    width: 60%;
+    padding-left: 140px;
+    padding-top: 120px;
+    
+}
+
+.GirlImage{
+    background: url("/assets/imgs/StudentsIsolated.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 40%;
+
+}
+
+h1{
+    color: white;
+    
+}
+
+form{
+    width: 90%;
+    
+    
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 15px; 
+    
+}
+
+select{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 15px; 
+    padding-right: 15px;
+}
+
+
+.FullWide{
+    width: 100%;
+    
+}
+
+.Tall{
+    width: 100%;
+    height: 100px;
+}
+
+p{
+    color: white;
+    margin-top: 20px;
+    font-size: 125%;
+}
+
+.Double{
+    width: 100%;
+    margin-top: 0px;
+}
+
+button{
+    background-color:#3c8c9c;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-color: transparent;
+}
+
+button:hover{
+    background-color: #d2da1b;
+
+    transition-duration: 200ms;
+}
