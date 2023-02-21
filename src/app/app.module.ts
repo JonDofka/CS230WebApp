@@ -10,6 +10,10 @@ import { MissionStatementComponent } from './mission-statement/mission-statement
 import { BorderboxesComponent } from './borderboxes/borderboxes.component';
 import { ProgramBoxesComponent } from './program-boxes/program-boxes.component';
 import { ApplicationSectionComponent } from './application-section/application-section.component';
+import { BlackWhiteBrochureComponent } from './black-white-brochure/black-white-brochure.component';
+import { GraduatedGirlsCarouselComponent } from './graduated-girls-carousel/graduated-girls-carousel.component';
+import { QuotesCarouselComponent } from './quotes-carousel/quotes-carousel.component';
+import { CardComponent } from './graduated-girls-carousel/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { ApplicationSectionComponent } from './application-section/application-s
     MissionStatementComponent,
     BorderboxesComponent,
     ProgramBoxesComponent,
-    ApplicationSectionComponent
+    ApplicationSectionComponent,
+    BlackWhiteBrochureComponent,
+    GraduatedGirlsCarouselComponent,
+    QuotesCarouselComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

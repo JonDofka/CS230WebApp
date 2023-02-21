@@ -1,31 +1,32 @@
-a{
+a {
     margin: 14px;
 }
 
-svg:hover{
-    color:#d2da1b;
+svg:hover {
+    color: #d2da1b;
 }
 
-.Decoration:hover{
-   color: white;
+.Decoration:hover {
+    color: white;
 }
+
 nav {
     height: 70px;
 }
 
-div{
+div {
     display: inline-block;
-    
+
 }
 
 .Application {
-    background-color:#3c8c9c;
+    background-color: #3c8c9c;
     color: white;
     height: 55px;
     width: 220px;
     vertical-align: auto;
     text-align: center;
-    
+
 }
 
 .ContactInfo {
@@ -42,15 +43,15 @@ div{
 
 }
 
-.Email{
+.Email {
     color: white;
-    
-    
+
+
 }
-.Application:hover{
+
+.Application:hover {
     background-color: #d2da1b;
     color: #7a7866;
     transition-duration: 200ms;
-    
-}
 
+}

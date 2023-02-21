@@ -1,0 +1,27 @@
+
+
+img{
+    border-radius: 0px;
+}
+
+.ApplyToday{
+    width: 33%;
+    height: 70px;
+    background-color: #b050c8;
+    color: white;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.Button{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: lightblue;
+}
+
+.ApplyToday:hover{
+    background-color: #d2da1b;
+    transition-duration: 200ms;
+}
+

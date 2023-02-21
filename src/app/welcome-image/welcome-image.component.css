@@ -2,7 +2,8 @@
     background-image: url("/assets/imgs/HeaderImage2.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 980px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
     margin-top: 70px;
 }
 
@@ -59,6 +60,7 @@ select{
     margin-top: 10px;
     width: 20%;
     height: 50%;
+    border-radius: 0px;
 }
 
 .Submit{

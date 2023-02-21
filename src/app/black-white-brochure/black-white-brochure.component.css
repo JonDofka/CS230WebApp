@@ -1,0 +1,71 @@
+.DarkeningDiv {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100%;
+}
+
+.ApplyToday {
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-image: url("/assets/imgs/GroupShot_MBC.jpeg");
+    background-position: center;
+    background-size: contain;
+
+}
+
+.GrabBrochure {
+    width: 50%;
+    aspect-ratio: 1/1;
+    background-image: url("/assets/imgs/HairSetting.jpeg");
+    background-position: center;
+    background-size: contain;
+
+}
+
+h1 {
+    color: white;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 450%;
+}
+
+p {
+    color: white;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-size: 145%;
+}
+
+button {
+    width: 200px;
+    margin-left: 15%;
+    margin-right: 20%;
+    height: 60px;
+    background-color: #3c8c9c;
+    color: white;
+    vertical-align: auto;
+    text-align: center;
+    border: transparent;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d2da1b;
+    color: #7a7866;
+    transition-duration: 200ms;
+
+}
+
+.CarouselTitle {
+    color: #3c8c9c;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    
+}
+
+h2{
+    color: rgb(100,100,100);
+    padding-left: 15%;
+    font-size: 450%;
+    margin-bottom: 50px;
+}
+
