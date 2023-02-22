@@ -1,39 +1,12 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="d-flex flex-row justify-content-evenly">
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Aleah-Alastanos1.jpeg" girlName="Aleah-Alastanos"></app-card>
-                </div>
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Alexa-Madagan.jpeg" girlName="Alexa-Madagan"></app-card>
-                </div>
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Alexa-Putorek.jpeg" girlName="Alexa-Putorek"></app-card>
-                </div>
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Alisha_Riffle.jpeg" girlName="Alisha_Riffle"></app-card>
-                </div>
-            </div>
+        <div *ngFor="let item of products">
+            <app-card img1={{item.img1}} girlName1={{item.girlName1}} img2={{item.img2}} girlName2={{item.girlName2}} 
+            img3={{item.img3}} girlName3={{item.girlName3}} img4={{item.img4}} girlName4={{item.girlName4}}></app-card>
         </div>
-        <div class="carousel-item ">
-            <div class="d-flex flex-row justify-content-evenly">
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Ashley-Nelson.jpeg" girlName="Ashley Nelson"></app-card>
-                </div>
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Ashley-Steele.jpeg" girlName="Ashley Steele"></app-card>
-                </div>
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Ashly-Bush.jpeg" girlName="Ashly Bush"></app-card>
-                </div>
-                <div style="width: 24%">
-                    <app-card img="/assets/imgs/GraduatedGirls/Avory-Albert1.jpeg" girlName="Avory Albert"></app-card>
-                </div>
-            </div>
-        </div>
-
     </div>
+
+   
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
