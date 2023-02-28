@@ -27,6 +27,7 @@ import { MassageIntroComponent } from './Layouts/massage/MassageComponents/massa
 import { NailIntroComponent } from './Layouts/nail/nailComponents/nail-intro/nail-intro.component';
 import { CosmetologyDetailsComponent } from './Layouts/cosmetology/CosmetologyComponents/cosmetology-details/cosmetology-details.component';
 import { FinancialAidComponent } from './Layouts/financial-aid/financial-aid.component';
+import { EstheticsDetailsComponent } from './Layouts/esthetics/EstheticsComponents/esthetics-details/esthetics-details.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { FinancialAidComponent } from './Layouts/financial-aid/financial-aid.com
     NailIntroComponent,
     CosmetologyDetailsComponent,
     FinancialAidComponent,
+    EstheticsDetailsComponent,
     
   ],
   imports: [

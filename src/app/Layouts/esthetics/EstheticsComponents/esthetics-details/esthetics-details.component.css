@@ -1,0 +1,91 @@
+h1{
+    color: #3e8998;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    color: #3e8998;
+    font-size: 140%;
+}
+
+h3{
+    color: #3e8998;
+    font-size: 135%;
+    margin-top: 50px;
+}
+
+.Allison{
+    color: #3e8999;
+    margin-top: 30px;
+}
+
+p{
+    color: #595a5c;
+}
+
+.skills{
+    padding-left: 10%;
+    margin-bottom: 4%;
+}
+
+iframe{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.left{
+    
+    width: 35%;
+    padding-right: 2%;
+    
+}
+
+.right{
+    
+    width: 23%;
+    
+}
+
+.carouselSlide{
+    width: 70%;
+}
+
+.carouselImages{
+    width: 30%;
+}
+.carouselWrap{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px; /* change width */
+    height: 5px; /* change height */
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: black;
+}
+
+.tabsBox{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button{
+    color: #3e8999;
+}
+
+.tabText{
+    font-size: 150%;
+}
+
+.panel{
+   border: solid;
+   border-top: transparent;
+    
+}
