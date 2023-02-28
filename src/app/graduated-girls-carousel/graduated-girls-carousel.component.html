@@ -1,12 +1,21 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div *ngFor="let item of products">
-            <app-card img1={{item.img1}} girlName1={{item.girlName1}} img2={{item.img2}} girlName2={{item.girlName2}} 
-            img3={{item.img3}} girlName3={{item.girlName3}} img4={{item.img4}} girlName4={{item.girlName4}}></app-card>
+        <div class="carousel-item active">
+            <div class="d-flex flex-row justify-content-evenly">
+                <img src="/assets/imgs/GraduatedGirls/Aleah-Alastanos1.jpeg" alt="Aleah-Alastanos1">
+                <img src="/assets/imgs/GraduatedGirls/Alexa-Madagan.jpeg" alt="Alexa-Madagan">
+                <img src="/assets/imgs/GraduatedGirls/Alexa-Putorek.jpeg" alt="Alexa-Putorek">
+                <img src="/assets/imgs/GraduatedGirls/Alisha_Riffle.jpeg" alt="Alisha_Riffle">
+            </div>
+        </div>
+        <div *ngFor="let item of students">
+            <app-card img1={{item.img1}} girlName1={{item.girlName1}} img2={{item.img2}} girlName2={{item.girlName2}}
+                img3={{item.img3}} girlName3={{item.girlName3}} img4={{item.img4}}
+                girlName4={{item.girlName4}}></app-card>
         </div>
     </div>
 
-   
+
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

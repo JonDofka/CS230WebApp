@@ -10,12 +10,12 @@ import { mock_list } from './card/mock_list';
 
 export class GraduatedGirlsCarouselComponent{
   title = 'TutorialApp';
-  products: ProductModel [] = [];
+  students: ProductModel [] = [];
 
   constructor(){
     for (var item of mock_list){
       console.log(item);
-      this.products.push(item);
+      this.students.push(item);
     }
   }
 

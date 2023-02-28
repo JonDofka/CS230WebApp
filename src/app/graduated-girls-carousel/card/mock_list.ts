@@ -1,5 +1,6 @@
 export const mock_list = [
-    {
+    
+    /*{
         img1: "/assets/imgs/GraduatedGirls/Aleah-Alastanos1.jpeg",
         girlName1: "Aleah Alastanos",
 
@@ -12,20 +13,35 @@ export const mock_list = [
         img4: "/assets/imgs/GraduatedGirls/Alisha_Riffle.jpeg",
         girlName4: "Alisha Riffle"
     },
-
+    */
     {
         img1: "/assets/imgs/GraduatedGirls/Ashley-Nelson.jpeg",
-        girlName1: "Aleah Alastanos",
+        girlName1: "Aleah Nelson",
 
         img2: "/assets/imgs/GraduatedGirls/Ashley-Steele.jpeg",
-        girlName2: "Alexa Madagan",
+        girlName2: "Alexa Steele",
 
         img3: "/assets/imgs/GraduatedGirls/Ashly-Bush.jpeg",
-        girlName3: "Alexa Putorek",
+        girlName3: "Ashly Bush",
 
         img4: "/assets/imgs/GraduatedGirls/Avory-Albert1.jpeg",
-        girlName4: "Alisha Riffle"
+        girlName4: "Avory Albert"
     },
+
+    {
+        img1: "/assets/imgs/GraduatedGirls/Breanna-Hartley.jpeg",
+        girlName1: "Breanna Hartley",
+
+        img2: "/assets/imgs/GraduatedGirls/Brianna-Peer.jpeg",
+        girlName2: "Brianna Peer",
+
+        img3: "/assets/imgs/GraduatedGirls/Bri-Balser.jpeg",
+        girlName3: "Bri Balser",
+
+        img4: "/assets/imgs/GraduatedGirls/Brittany-Brown.jpeg",
+        girlName4: "Brittany Brown"
+    },
+    
 
     
 

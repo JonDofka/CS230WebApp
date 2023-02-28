@@ -1,0 +1,42 @@
+.massageBackground{
+    margin-top:221px;
+    background-color: blue;
+    width: 100%;
+    aspect-ratio: 307 / 87;
+    background-image: url("/assets/imgs/MassageTherapyBackground.jpeg");
+    background-position-y: 80%;
+    background-size: cover;
+}
+
+.opaqueCover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+h1{
+    color: white;
+    font-size: 450%;
+}
+
+.introText{
+    background-color: #3e8998;
+}
+
+p{
+    color: white;
+}
+
+.hours{
+    padding-top: 60px;
+    font-size: xx-large;
+}
+
+.programTextIntro{
+    padding-bottom: 70px; 
+    color: white;
+    font-size: 270%;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}

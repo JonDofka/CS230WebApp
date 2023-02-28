@@ -14,6 +14,20 @@ import { BlackWhiteBrochureComponent } from './black-white-brochure/black-white-
 import { GraduatedGirlsCarouselComponent } from './graduated-girls-carousel/graduated-girls-carousel.component';
 import { QuotesCarouselComponent } from './quotes-carousel/quotes-carousel.component';
 import { CardComponent } from './graduated-girls-carousel/card/card.component';
+import { HomepageComponent } from './Layouts/homepage/homepage.component';
+import { CosmetologyComponent } from './Layouts/cosmetology/cosmetology.component';
+import { EstheticsComponent } from './Layouts/esthetics/esthetics.component';
+import { HairstylistComponent } from './Layouts/hairstylist/hairstylist.component';
+import { MassageComponent } from './Layouts/massage/massage.component';
+import { NailComponent } from './Layouts/nail/nail.component';
+import { IntroImageComponent } from './Layouts/cosmetology/CosmetologyComponents/intro-image/intro-image.component';
+import { EstheticsintroComponent } from './Layouts/esthetics/EstheticsComponents/estheticsintro/estheticsintro.component';
+import { HairIntroComponent } from './Layouts/hairstylist/HairstylistComponents/hair-intro/hair-intro.component';
+import { MassageIntroComponent } from './Layouts/massage/MassageComponents/massage-intro/massage-intro.component';
+import { NailIntroComponent } from './Layouts/nail/nailComponents/nail-intro/nail-intro.component';
+import { CosmetologyDetailsComponent } from './Layouts/cosmetology/CosmetologyComponents/cosmetology-details/cosmetology-details.component';
+import { FinancialAidComponent } from './Layouts/financial-aid/financial-aid.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +42,21 @@ import { CardComponent } from './graduated-girls-carousel/card/card.component';
     BlackWhiteBrochureComponent,
     GraduatedGirlsCarouselComponent,
     QuotesCarouselComponent,
-    CardComponent
+    CardComponent,
+    HomepageComponent,
+    CosmetologyComponent,
+    EstheticsComponent,
+    HairstylistComponent,
+    MassageComponent,
+    NailComponent,
+    IntroImageComponent,
+    EstheticsintroComponent,
+    HairIntroComponent,
+    MassageIntroComponent,
+    NailIntroComponent,
+    CosmetologyDetailsComponent,
+    FinancialAidComponent,
+    
   ],
   imports: [
     BrowserModule,
