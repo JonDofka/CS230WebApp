@@ -28,6 +28,7 @@ import { NailIntroComponent } from './Layouts/nail/nailComponents/nail-intro/nai
 import { CosmetologyDetailsComponent } from './Layouts/cosmetology/CosmetologyComponents/cosmetology-details/cosmetology-details.component';
 import { FinancialAidComponent } from './Layouts/financial-aid/financial-aid.component';
 import { EstheticsDetailsComponent } from './Layouts/esthetics/EstheticsComponents/esthetics-details/esthetics-details.component';
+import { BlackBarComponent } from './footer/black-bar/black-bar.component';
 
 
 @NgModule({
@@ -58,6 +59,7 @@ import { EstheticsDetailsComponent } from './Layouts/esthetics/EstheticsComponen
     CosmetologyDetailsComponent,
     FinancialAidComponent,
     EstheticsDetailsComponent,
+    BlackBarComponent,
     
   ],
   imports: [

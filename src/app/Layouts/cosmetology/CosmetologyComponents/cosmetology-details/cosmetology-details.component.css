@@ -1,90 +1,94 @@
-h1{
+h1 {
     color: #3e8998;
     text-align: center;
     margin-top: 100px;
 }
 
-h2{
+h2 {
     color: #3e8998;
     font-size: 140%;
 }
 
-h3{
+h3 {
     color: #3e8998;
     font-size: 135%;
     margin-top: 50px;
 }
 
-.quote{
+.quote {
     margin-top: 70px;
-    
+
     margin-left: 14%;
     width: 80%;
 }
 
-.coursework{
+.coursework {
     margin-top: 90px;
     width: 60%;
     margin-right: 10%;
     padding-left: 4%;
 }
 
-.skills{
+.skills {
     padding-left: 10%;
     margin-bottom: 4%;
 }
 
-.Jenna{
+.Jenna {
     color: #3e8999;
     margin-top: 30px;
 }
 
-p{
+p {
     color: #595a5c;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.tabsBox{
+.tabsBox {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-button{
+button {
     color: #3e8999;
+    width: 14%;
+
 }
 
-.tabText{
+.tabText {
     font-size: 150%;
 }
 
-.panel{
-   border: solid;
-   border-top: transparent;
-    
+.panels {
+    border: solid 2px yellow;
 }
 
-.carouselSlide{
+
+.carouselSlide {
     width: 70%;
 }
 
-.carouselImages{
+.carouselImages {
     width: 30%;
 }
-.carouselWrap{
+
+.carouselWrap {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .carousel-indicators [data-bs-target] {
-    
+
     box-sizing: content-box;
     flex: 0 1 auto;
-    width: 5px; /* change width */
-    height: 5px; /* change height */
+    width: 5px;
+    /* change width */
+    height: 5px;
+    /* change height */
     border-radius: 50%;
     margin-left: 8px;
     background-color: black;

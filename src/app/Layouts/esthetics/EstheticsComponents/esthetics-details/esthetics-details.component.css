@@ -78,6 +78,9 @@ iframe{
 
 button{
     color: #3e8999;
+    width: 14%;
+    border-color: yellow;
+    border: solid 2px;
 }
 
 .tabText{

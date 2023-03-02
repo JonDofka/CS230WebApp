@@ -1,6 +1,6 @@
 export const mock_list = [
     
-    /*{
+    {
         img1: "/assets/imgs/GraduatedGirls/Aleah-Alastanos1.jpeg",
         girlName1: "Aleah Alastanos",
 
@@ -13,7 +13,7 @@ export const mock_list = [
         img4: "/assets/imgs/GraduatedGirls/Alisha_Riffle.jpeg",
         girlName4: "Alisha Riffle"
     },
-    */
+    
     {
         img1: "/assets/imgs/GraduatedGirls/Ashley-Nelson.jpeg",
         girlName1: "Aleah Nelson",
