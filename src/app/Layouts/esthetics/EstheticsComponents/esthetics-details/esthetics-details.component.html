@@ -137,19 +137,8 @@
                     aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-evenly">
-                        <img class="carouselImages" src="/assets/imgs/CosmoPageImgs/HairSpray.jpeg" alt="...">
-                        <img class="carouselImages" src="/assets/imgs/CosmoPageImgs/HairDemoTeacher.jpeg" alt="...">
-                        <img class="carouselImages" src="/assets/imgs/CosmoPageImgs/BrushBelt.jpeg" alt="...">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="images d-flex justify-content-evenly">
-                        <img class="carouselImages" src="/assets/imgs/CosmoPageImgs/StudentServices1.jpeg" alt="...">
-                        <img class="carouselImages" src="/assets/imgs/CosmoPageImgs/WashingStation.jpeg" alt="...">
-                        <img class="carouselImages" src="/assets/imgs/CosmoPageImgs/HairSpray.jpeg" alt="...">
-                    </div>
+                <div class="carousel-item" *ngFor="let item of images let i = index" [ngClass]="{'active': i == 0 }">
+                    <app-esthetics-card img1={{item.img1}} img2={{item.img2}} img3={{item.img3}} imgAlt1={{item.imgAlt1}} imgAlt2={{item.imgAlt2}} imgAlt3={{item.imgAlt3}}></app-esthetics-card>
                 </div>
 
             </div>
@@ -171,7 +160,8 @@
     What Your Esthetics Kit Includes:
 </h1>
 
-<div class="tabsBox">
+
+<div class="tabsBox" style ="margin-bottom: 50px;">
     <div>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <button class="nav-link active" id="essentials-tab" data-bs-toggle="tab" data-bs-target="#essentials"
@@ -185,7 +175,7 @@
         </div>
     </div>
 
-    <div class="tab-content" id="nav-tabContent">
+    <div class="panels tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="essentials" role="tabpanel" aria-labelledby="essentials-tab"
             tabindex="0">
             <p class="tabText">

@@ -1,0 +1,105 @@
+h1{
+    color: #3e8998;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    color: #3e8998;
+    font-size: 140%;
+}
+
+h3{
+    color: #3e8998;
+    font-size: 135%;
+    margin-top: 50px;
+}
+
+p{
+    color: #595a5c;
+}
+
+.left{
+    
+    width: 41%;
+    padding-right: 2%;
+    
+}
+
+.right{
+    margin-left: 1%;
+    width: 27%;
+    
+}
+
+.skills{
+    padding-left: 10%;
+    margin-bottom: 4%;
+}
+
+.Lisa{
+    color: #3e8999;
+    margin-top: 30px;
+}
+
+.carouselSlide {
+    width: 70%;
+}
+
+.carouselImages {
+    width: 30%;
+}
+
+.carouselWrap {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px;
+    /* change width */
+    height: 5px;
+    /* change height */
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: black;
+}
+
+.bottomImage1{
+    aspect-ratio: 7/5;
+    width: 39%;
+    margin-right: 2%;
+}
+
+.bottomImage2{
+    aspect-ratio: 6/5;
+    width:33%;
+}
+
+.bottomImgs{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.panels {
+    border: solid 2px yellow;
+}
+
+.tabText {
+    font-size: 150%;
+}
+
+.tabsBox {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    color: #3e8999;
+    width: 14%;
+
+}

@@ -80,7 +80,11 @@ button{
     color: #3e8999;
     width: 14%;
     border-color: yellow;
-    border: solid 2px;
+    
+}
+
+.panels {
+    border: solid 2px yellow;
 }
 
 .tabText{

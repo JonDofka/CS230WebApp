@@ -29,6 +29,8 @@ import { CosmetologyDetailsComponent } from './Layouts/cosmetology/CosmetologyCo
 import { FinancialAidComponent } from './Layouts/financial-aid/financial-aid.component';
 import { EstheticsDetailsComponent } from './Layouts/esthetics/EstheticsComponents/esthetics-details/esthetics-details.component';
 import { BlackBarComponent } from './footer/black-bar/black-bar.component';
+import { EstheticsCardComponent } from './Layouts/esthetics/EstheticsComponents/esthetics-details/esthetics-card/esthetics-card.component';
+import { HairDetailsComponent } from './Layouts/hairstylist/HairstylistComponents/hair-details/hair-details.component';
 
 
 @NgModule({
@@ -60,6 +62,8 @@ import { BlackBarComponent } from './footer/black-bar/black-bar.component';
     FinancialAidComponent,
     EstheticsDetailsComponent,
     BlackBarComponent,
+    EstheticsCardComponent,
+    HairDetailsComponent,
     
   ],
   imports: [
