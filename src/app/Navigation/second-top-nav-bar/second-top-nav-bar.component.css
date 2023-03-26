@@ -1,6 +1,7 @@
 nav {
     margin-top: 70px;
     background: rgba(0,0,0,.65);
+    position: fixed;
     
   }
 

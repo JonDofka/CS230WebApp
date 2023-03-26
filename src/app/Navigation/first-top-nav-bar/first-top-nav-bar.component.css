@@ -12,6 +12,7 @@ svg:hover {
 
 nav {
     height: 70px;
+    position: fixed;
 }
 
 div {

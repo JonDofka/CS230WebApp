@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,6 +32,7 @@ import { EstheticsDetailsComponent } from './Layouts/esthetics/EstheticsComponen
 import { BlackBarComponent } from './footer/black-bar/black-bar.component';
 import { EstheticsCardComponent } from './Layouts/esthetics/EstheticsComponents/esthetics-details/esthetics-card/esthetics-card.component';
 import { HairDetailsComponent } from './Layouts/hairstylist/HairstylistComponents/hair-details/hair-details.component';
+import { UserInfoComponent } from './Navigation/userinfo/user-info/user-info.component';
 
 
 @NgModule({
@@ -64,11 +66,13 @@ import { HairDetailsComponent } from './Layouts/hairstylist/HairstylistComponent
     BlackBarComponent,
     EstheticsCardComponent,
     HairDetailsComponent,
+    UserInfoComponent,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

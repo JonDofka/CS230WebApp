@@ -12,6 +12,7 @@ const routes: Routes = [
   path: '',
   component: HomepageComponent,
 },
+
 {
   path: 'cosmetology',
   component: CosmetologyComponent,
