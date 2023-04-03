@@ -1,8 +1,8 @@
 
 <p *ngIf = "myInfo == undefined">Failed Fetching User Info</p>
 <div *ngIf = "myInfo != undefined">
-    <div class = "container-fluid" style = "z-index: 1034; position: absolute; background-color: white; width: 100%; top: 0;" >
-        <div class = "d-flex flex-row justify-content-evenly">
+    <div class = "container-fluid" >
+        <div class = "d-flex flex-row justify-content-evenly" style = "z-index: 1034; position: absolute; background-color: white; width: 95%; top: 0">
 
             <div class = "d-flex flex-column">
                 User: {{myInfo.FirstName}} {{myInfo.LastName}}
