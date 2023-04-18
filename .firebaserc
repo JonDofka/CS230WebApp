@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "beautycollege-360c1"
+  },
+  "targets": {
+    "beautycollege-360c1": {
+      "hosting": {
+        "CS230WebApp": [
+          "beautycollege-360c1"
+        ]
+      }
+    }
   }
 }

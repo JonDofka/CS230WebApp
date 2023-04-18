@@ -6,12 +6,18 @@ import { HairstylistComponent } from './Layouts/hairstylist/hairstylist.componen
 import { HomepageComponent } from './Layouts/homepage/homepage.component';
 import { MassageComponent } from './Layouts/massage/massage.component';
 import { NailComponent } from './Layouts/nail/nail.component';
+import { AddCompComponent } from './graduated-girls-carousel/addComp/add-comp/add-comp.component';
 
 const routes: Routes = [
 {
   path: '',
   component: HomepageComponent,
 },
+
+{
+  path: 'admin',
+  component: AddCompComponent
+ },
 
 {
   path: 'cosmetology',

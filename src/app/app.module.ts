@@ -33,6 +33,16 @@ import { BlackBarComponent } from './footer/black-bar/black-bar.component';
 import { EstheticsCardComponent } from './Layouts/esthetics/EstheticsComponents/esthetics-details/esthetics-card/esthetics-card.component';
 import { HairDetailsComponent } from './Layouts/hairstylist/HairstylistComponents/hair-details/hair-details.component';
 import { UserInfoComponent } from './Navigation/userinfo/user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from 'src/environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AddCompComponent } from './graduated-girls-carousel/addComp/add-comp/add-comp.component';
+import { FormsModule } from '@angular/forms';
+
+
+
+
 
 
 @NgModule({
@@ -67,12 +77,22 @@ import { UserInfoComponent } from './Navigation/userinfo/user-info/user-info.com
     EstheticsCardComponent,
     HairDetailsComponent,
     UserInfoComponent,
+    AddCompComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    AngularFireModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase()),
+    AngularFireModule.initializeApp(environment.firebase),
+    FormsModule
+   
+    
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "CS230WebApp:build:production",
+            "firebaseProject": "beautycollege-360c1",
+            "firebaseHostingSite": "beautycollege-360c1"
+          }
         }
       }
     }

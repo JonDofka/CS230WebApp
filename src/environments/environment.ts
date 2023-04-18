@@ -1,4 +1,14 @@
 export const environment = {
+  firebase: {
+    projectId: 'beautycollege-360c1',
+    appId: '1:45489657946:web:8b94850698ea073387a063',
+    databaseURL: 'https://beautycollege-360c1-default-rtdb.firebaseio.com',
+    storageBucket: 'beautycollege-360c1.appspot.com',
+    apiKey: 'AIzaSyCyD_eKx3rZcpXa03lUFXWtG8lnjJE4A6E',
+    authDomain: 'beautycollege-360c1.firebaseapp.com',
+    messagingSenderId: '45489657946',
+    measurementId: 'G-11SJFR78CL',
+  },
     production: false
 }
 
@@ -22,5 +32,5 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
