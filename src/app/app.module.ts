@@ -39,6 +39,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AddCompComponent } from './graduated-girls-carousel/addComp/add-comp/add-comp.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 
@@ -78,6 +79,7 @@ import { FormsModule } from '@angular/forms';
     HairDetailsComponent,
     UserInfoComponent,
     AddCompComponent,
+    AuthenticationComponent,
     
   ],
   imports: [

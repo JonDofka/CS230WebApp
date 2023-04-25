@@ -7,11 +7,17 @@ import { HomepageComponent } from './Layouts/homepage/homepage.component';
 import { MassageComponent } from './Layouts/massage/massage.component';
 import { NailComponent } from './Layouts/nail/nail.component';
 import { AddCompComponent } from './graduated-girls-carousel/addComp/add-comp/add-comp.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
 {
   path: '',
   component: HomepageComponent,
+},
+
+{
+  path: 'auth',
+  component: AuthenticationComponent,
 },
 
 {

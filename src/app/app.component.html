@@ -2,14 +2,14 @@
 
 <html lang="en">
 
-<app-user-info></app-user-info>
-<div>
- 
-  <app-first-top-nav-bar></app-first-top-nav-bar>
+<div style="z-index: 1034; position: relative;">
+  <app-user-info></app-user-info>
 </div>
+<div style="z-index: 10; position: relative;">
 
-<div>
-  <app-second-top-nav-bar></app-second-top-nav-bar>
+  <app-first-top-nav-bar style="z-index: 1"></app-first-top-nav-bar>
+
+  <app-second-top-nav-bar style="z-index: 1"></app-second-top-nav-bar>
 </div>
 
 <router-outlet></router-outlet>
